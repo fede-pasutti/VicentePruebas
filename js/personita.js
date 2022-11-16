@@ -11,9 +11,9 @@ var cantidadTipitos = 6;
 
 var cantidad = d3.range(0, cantidadColumnas);
 
-var selectos=[1,5,8,14,20,32,43,56];
+var selectos=[1,5,8,14,20,32,43,56,0,56,59];
 var years = d3.range(2012,2023);
-var cantidades=[156,31,20,11,8,5,3,2.81];
+var cantidades=[156,31,20,11,8,5,3,2.81,0,1,1];
 
     // create custom locale formatter from the given locale options
     var localeFormatter = d3.formatLocale({
