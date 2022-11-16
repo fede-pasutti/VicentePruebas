@@ -46,7 +46,7 @@ var estadoActivo;
 
 var yTimeline = d3.scalePoint()
   .range([height - 150, 120])
-  .domain(d3.range(2013, 2021));
+  .domain(d3.range(2013, 2023));
 
 if (isSmallDevice) yTimeline.range([50, height-20])
 
